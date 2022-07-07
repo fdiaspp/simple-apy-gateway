@@ -1,9 +1,8 @@
-import os
 import json
 from typing import List, Union
 from io import IOBase
 
-from .router import Router, Route, Middleware, Agent
+from .router import Router, Route
 from .exceptions import ConfigNotDefinedAtConfigFile
 from .agent.api_rest import APIRestAgent
 
