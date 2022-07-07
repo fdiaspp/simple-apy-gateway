@@ -1,0 +1,4 @@
+
+
+class ConfigNotDefinedAtConfigFile(KeyError):
+    pass
